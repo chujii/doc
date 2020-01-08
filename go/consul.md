@@ -21,3 +21,7 @@ https://www.cnblogs.com/a609251438/archive/2019/11/07/11811761.html
 **consul配置参数大全、详解、总结**
 
 https://www.cnblogs.com/sunsky303/p/9209024.html
+
+**Consul 命令行最全文档**
+
+https://www.jianshu.com/p/339cd3d1d7c4
