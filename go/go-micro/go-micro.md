@@ -1,3 +1,11 @@
+**官网**
+
+https://micro.mu
+
+**开发中文手册**
+
+https://micro.mu/docs/cn/proxy.html
+
 **Go - Micro微服务框架实践 - 常见问题**
 
 https://blog.csdn.net/m0_37125796/article/details/89424174
@@ -6,7 +14,9 @@ https://blog.csdn.net/m0_37125796/article/details/89424174
 
 https://segmentfault.com/a/1190000017572032
 
+**系列教程**
 
+https://www.jianshu.com/nb/15699561
 
 **issue**
 
