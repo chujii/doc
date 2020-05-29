@@ -29,6 +29,10 @@ upstream b.com {
 	server 127.0.0.1:81 weight=1;
 	server 192.168.0.102:81 weight=5;
 }
+upstream c.com {
+    server 127.0.0.1:81 weight=1;
+	server 192.168.0.102:81 weight=4;
+}
 server {
 	listen 80;
 	server_name a.com b.com;
@@ -36,6 +40,14 @@ server {
 		proxy_pass http://$host;
 		proxy_connect_timeout 10s;
 	}
+}
+server {
+		include include/ssl.conf;
+        server_name c.com;
+        location / {
+                proxy_pass http://$host;
+                proxy_connect_timeout 10s;
+        }
 }
 ```
 
@@ -51,6 +63,12 @@ server{
 server{ 
     listen 81; 
     server_name b.com; 
+    index index.html; 
+    root /data0/htdocs/www; 
+}
+server{ 
+    listen 81; 
+    server_name c.com; 
     index index.html; 
     root /data0/htdocs/www; 
 }
