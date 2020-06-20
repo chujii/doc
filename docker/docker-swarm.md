@@ -6,3 +6,6 @@ Client(compose,docker-py等)均可以直接与Swarm通信，甚至Docker本身�
 　　Swarm deamon只是一个调度器(Scheduler)加路由器(router),Swarm自己不运行容器，它只是接受Docker客户端发来的请求，调度适合的节点来运行容器，这就意味着，即使Swarm由于某些原因挂掉了，集群中的节点也会照常运行，放Swarm重新恢复运行之后，他会收集重建集群信息。
 
 https://www.cnblogs.com/zhujingzhi/p/9792432.html
+
+**Docker Swarm - 服务发现和负载均衡原理**
+https://www.jianshu.com/p/dba9342071d8
