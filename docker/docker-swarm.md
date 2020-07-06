@@ -7,5 +7,7 @@ Client(compose,docker-py等)均可以直接与Swarm通信，甚至Docker本身�
 
 https://www.cnblogs.com/zhujingzhi/p/9792432.html
 
+https://www.jianshu.com/p/3f3c9e0e3db5
+
 **Docker Swarm - 服务发现和负载均衡原理**
 https://www.jianshu.com/p/dba9342071d8
