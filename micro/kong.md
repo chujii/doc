@@ -1,5 +1,6 @@
 # [使用Kong和Konga管理微服务和API](https://segmentfault.com/a/1190000020375323)
 
+# [kong学习][https://www.cnblogs.com/sunhongleibibi/tag/kong/]
 
 
 **1.Create a Docker network**
@@ -87,3 +88,6 @@ docker run -d -p 1337:1337
 ```
 
 
+
+
+[]: https://www.cnblogs.com/sunhongleibibi/tag/kong/
