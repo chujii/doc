@@ -74,7 +74,7 @@ docker run --rm --network=kong-net pantsel/konga -c prepare -a postgres -u postg
 **6.start konga**
 
 ```
-docker run -d -p 1337:1337
+docker run -d -p 1337:1337 \
               --network kong-net \
               -e "DB_ADAPTER=postgres" \
               -e "DB_HOST=kong-database" \
