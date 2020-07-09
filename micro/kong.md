@@ -2,6 +2,7 @@
 
 # [kong学习][https://www.cnblogs.com/sunhongleibibi/tag/kong/]
 
+# [kong][https://www.lijiaocn.com/tags/all.html#kong]
 
 **1.Create a Docker network**
 
@@ -88,6 +89,3 @@ docker run -d -p 1337:1337
 ```
 
 
-
-
-[]: https://www.cnblogs.com/sunhongleibibi/tag/kong/
