@@ -9,3 +9,6 @@ https://github.com/gotok8s/k8s-docker-desktop-for-mac
 
 **kubernetes学习笔记**
 https://www.cnblogs.com/panwenbin-logs/category/1329765.html
+
+**K8S的apiVersion**
+https://www.jianshu.com/p/457cf0835f88
